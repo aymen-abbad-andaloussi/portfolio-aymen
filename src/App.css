@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body{
+    background: #1b1b1b;
+    font-family: "Source Code Pro", monospace;
+}
+
+.navBackground{
+    background: linear-gradient(to bottom, #000000a2 , transparent);
+}
+
+.bgSkyGalaxy{
+    background-image: url(./assets/images/bgSkyGalaxy.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.divImageMe{
+    width: 40%;
+}
+
+.imageMe{
+    filter: drop-shadow(0px 0px 50px rgba(158, 203, 255, 0.651));
+}
+
+.zedIndex{
+    z-index: 2;
+}
+
+.devText {
+  display: inline-block;
+  border-right: 2px solid #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 7s steps(22, end) infinite, blinkCursor 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 22ch;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blinkCursor {
+  from {
+    border-color: #fff;
+  }
+
+}
